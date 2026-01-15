@@ -15,10 +15,10 @@ export default function Header() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
   const navItems = [
-    { label: "New & Featured", href: "/new" },
-    { label: "Men", href: "/men" },
-    { label: "Women", href: "/women" },
-    { label: "Sale", href: "/sale" },
+    { label: "New & Featured", href: "/products" },
+    { label: "Men", href: "/products" },
+    { label: "Women", href: "/products" },
+    { label: "Sale", href: "/products" },
   ];
 
   return (
@@ -26,13 +26,13 @@ export default function Header() {
       {/* Top bar */}
       <div className="hidden md:block text-sm">
         <div className="max-w-[1440px] mx-auto px-8 py-2 flex justify-end gap-3">
-          <Link href="#">Find a store</Link>
+          <Link href="/products">Find a store</Link>
           <span>|</span>
           <Link href="#">Help</Link>
           <span>|</span>
-          <Link href="#">Join Us</Link>
+          <Link href="/signup">Join Us</Link>
           <span>|</span>
-          <Link href="#">Sign In</Link>
+          <Link href="/login">Sign In</Link>
         </div>
       </div>
 
