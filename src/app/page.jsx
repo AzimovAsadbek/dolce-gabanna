@@ -29,7 +29,7 @@ const trendingItems = [
 const products = [
   {
     id: "1",
-    title: "Nike Tech Fleece Windrunner",
+    title: "Nike Tech Fleece Windrunner 1",
     price: 145,
     image: "/casual-clothing-travel-wear.jpg",
     badge: "Just In",
@@ -42,7 +42,7 @@ const products = [
   },
   {
     id: "2",
-    title: "Nike Tech Fleece Windrunner",
+    title: "Nike Tech Fleece Windrunner 2",
     price: 145,
     image: "/casual-clothing-travel-wear.jpg",
     badge: "Sustainable Materials",
@@ -54,7 +54,7 @@ const products = [
   },
   {
     id: "3",
-    title: "Nike Tech Fleece Windrunner",
+    title: "Nike Tech Fleece Windrunner 3",
     price: 145,
     image: "/casual-clothing-travel-wear.jpg",
     badge: "Just In",

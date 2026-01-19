@@ -7,9 +7,10 @@ export function CategorySection({ title, items }) {
         {title}
       </h3>
       <ul className="space-y-3">
-        {items.map((item) => (
-          <li key={item.href}>
+        {items.map((item, i) => (
+          <li key={i}>
             <Link
+              key={i}
               href={item.href}
               className="text-base md:text-lg text-foreground/70 hover:text-foreground transition-colors"
             >
